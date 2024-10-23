@@ -1,0 +1,7 @@
+flutter_native_splash:
+  background_image: 'assets/logo/First Screen.png'
+  
+  android_12:
+    background_image: 'assets/logo/First Screen.png'
+
+  web: false
