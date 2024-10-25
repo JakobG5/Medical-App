@@ -30,6 +30,7 @@ flutter:
 
   assets:
     - assets/logo/First Screen.png
+    - assets/images/Group 93.png
 
   fonts:
     - family: LeagueSpartan
