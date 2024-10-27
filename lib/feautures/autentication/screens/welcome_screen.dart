@@ -46,7 +46,7 @@ class WelcomeScreen extends StatelessWidget {
             CustomMainButton(
               btnText: 'Log In',
               isBold: true,
-              funciton: controller.goToSignInScreen,
+              funciton: controller.goToLogInScreen,
             ),
             const SizedBox(height: MSpace.space8),
             CustomMainButton(

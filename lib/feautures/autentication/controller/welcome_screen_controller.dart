@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:medical_app/feautures/autentication/screens/login_screen.dart';
-import 'package:medical_app/feautures/autentication/screens/signin_screen.dart';
+import 'package:medical_app/feautures/autentication/screens/sign_up_screen.dart';
 
 class WelcomeScreenController extends GetxController {
   static WelcomeScreenController get instance => Get.find();
@@ -10,6 +10,6 @@ class WelcomeScreenController extends GetxController {
   }
 
   void goToSignInScreen() {
-    Get.to(const SigninScreen());
+    Get.to(const SignUpScreen());
   }
 }
