@@ -11,7 +11,7 @@ class GreetingIntroWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(headerText,
             style: MText.semiBold24.copyWith(color: MColors.primaryColor1)),

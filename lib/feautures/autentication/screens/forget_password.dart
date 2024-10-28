@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:medical_app/common/styles/text_style.dart';
 import 'package:medical_app/common/widget/custom_main_button.dart';
 import 'package:medical_app/common/widget/text_field_card.dart';
-import 'package:medical_app/utils/constants/colors.dart';
+import '../../../common/styles/text_style.dart';
 import '../../../common/widget/greeting_intro_widget.dart';
+import '../../../utils/constants/colors.dart';
 import '../../../utils/constants/space.dart';
 import '../controller/forgot_password_controller.dart';
 
@@ -29,7 +29,7 @@ class ForgetPassword extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(height: MSpace.space12),
+              const SizedBox(height: MSpace.space36),
               const GreetingIntroWidget(
                   headerText: 'Forgot Password',
                   description:

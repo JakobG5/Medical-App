@@ -115,7 +115,7 @@ class SignUpScreen extends StatelessWidget {
                         GestureDetector(
                             onTap: () {},
                             child: Text(
-                              ' Privacy Policy',
+                              'Privacy Policy',
                               style: MText.medium12
                                   .copyWith(color: MColors.primaryColor1),
                             )),
